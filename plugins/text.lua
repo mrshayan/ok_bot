@@ -20,10 +20,10 @@ end
 return {
   description = "Convert LaTeX equation to image",
   usage = {
-    "text [equation]: Convert LaTeX equation to image"
+    "تبدیل به عکس [equation]: Convert LaTeX equation to image"
   },
   patterns = {
-    "^[Tt]ext (.+)$"
+    "^تبدیل به عکس (.+)$"
   },
   run = run
 }
